@@ -36,6 +36,8 @@
     "react": "^16.3.2",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
     "resolve": "1.6.0",
     "storybook": "^1.0.0",
     "style-loader": "0.19.0",
