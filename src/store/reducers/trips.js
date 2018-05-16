@@ -5,7 +5,7 @@ import trips from '../../mocks/trips.json'
 
 const defaultState = {
   list: trips,
-  // filters: []
+  filters: []
 };
 
 export default (state = defaultState, { type, payload }) => {
