@@ -21,7 +21,7 @@ const Search = ({ classes }) => (
   <div className={classes.wrapper}>
     <Form />
     <Map
-      googleMapURL='https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places'
+      googleMapURL='https://maps.googleapis.com/maps/api/js?key=AIzaSyBd7fS5iU1orsfaVNH_hv3rtsWGHFFeN2A&v=3.exp&libraries=geometry,drawing,places'
       loadingElement={<div className={classes.mapContainter} />}
       containerElement={<div className={classes.mapContainter} />}
       mapElement={<div className={classes.mapElement} />}
