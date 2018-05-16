@@ -9,7 +9,7 @@ The user has to fill details about its expectations without giving the destinati
 
 ## Demo
 
-[https://github.com/facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app)
+[https://rdbmax.github.io/vp-orchestra-hackathon-2018/](https://rdbmax.github.io/vp-orchestra-hackathon-2018/)
 
 ## Contributors
 
