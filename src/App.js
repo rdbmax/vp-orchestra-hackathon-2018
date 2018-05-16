@@ -1,6 +1,8 @@
 import React from 'react';
 import injectSheet from 'react-jss'
 import Header from './components/Header'
+import Search from './components/Search'
+import Results from './components/Results'
 
 const styles = {
   app: {
@@ -12,7 +14,9 @@ const styles = {
 
 const App = ({ classes }) => (
   <div className={classes.app}>
-    <Header key='header' />
+    <Header />
+    <Search />
+    <Results />
   </div>
 )
 
