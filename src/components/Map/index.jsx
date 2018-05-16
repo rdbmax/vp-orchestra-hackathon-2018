@@ -10,6 +10,11 @@ const Map = ({ markers = [], classes }) => (
   <GoogleMap
     defaultZoom={4}
     defaultCenter={{ lat: 45.954976, lng: -10.501562 }}
+    options={{
+      scrollwheel: false,
+      streetViewControl: false,
+      fullscreenControl: false
+    }}
   >
     { markers && markers.map(() => (<Marker position={{ lat: -34.397, lng: 150.644 }} />)) }
   </GoogleMap>
