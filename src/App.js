@@ -1,8 +1,19 @@
 import React from 'react';
+import injectSheet from 'react-jss'
 import Header from './components/Header'
 
-const App = () => [
-  <Header key='header' />
-]
+const styles = {
+  app: {
+    backgroundImage: 'url(./background.png)',
+    backgroundPosition: 'center top',
+    backgroundRepeat: 'no-repeat'
+  }
+}
 
-export default App;
+const App = ({ classes }) => (
+  <div className={classes.app}>
+    <Header key='header' />
+  </div>
+)
+
+export default injectSheet(styles)(App);
