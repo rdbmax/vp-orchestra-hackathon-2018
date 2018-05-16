@@ -6,7 +6,7 @@ import Results from './components/Results'
 
 const styles = {
   app: {
-    backgroundImage: 'url(./background.png)',
+    backgroundImage: 'url(./background_transparent.png)',
     backgroundPosition: 'center top',
     backgroundRepeat: 'no-repeat'
   }
