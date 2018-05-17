@@ -17,6 +17,7 @@ const AvgTemperature = ({ onChange, value, options }) => (
     options={options}
     value={value}
     onChange={onChange}
+    theme='secondary'
   />
 )
 

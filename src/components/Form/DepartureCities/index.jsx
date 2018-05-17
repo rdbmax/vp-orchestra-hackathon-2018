@@ -17,6 +17,7 @@ const DepartureCities = ({ onChange, value, options }) => (
     options={options}
     value={value}
     onChange={onChange}
+    theme='secondary'
   />
 )
 

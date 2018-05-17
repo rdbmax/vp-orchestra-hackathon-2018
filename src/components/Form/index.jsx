@@ -18,7 +18,8 @@ const styles = {
     padding: '20px',
     backgroundColor: 'rgb(247, 247, 247)',
     color: 'white',
-    borderRadius: '3px'
+    borderRadius: '3px',
+    minHeight: '350px'
   },
   title: {
     color: 'black',

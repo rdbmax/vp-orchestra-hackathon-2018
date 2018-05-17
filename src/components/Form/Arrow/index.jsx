@@ -5,6 +5,8 @@ const styles = {
   arrow: {
     appearance: 'none',
     backgroundColor: 'transparent',
+    position: 'relative',
+    left: '10px',
     width: 0,
     height: 0,
     borderTop: '10px solid transparent',

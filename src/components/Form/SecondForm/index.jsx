@@ -12,7 +12,9 @@ const icon = {
   width: '30px',
   height: '30px',
   backgroundSize: 'contain',
-  backgroundRepeat: 'no-repeat'
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'center center',
+  marginTop: '15px'
 }
 
 const styles = {
@@ -20,7 +22,7 @@ const styles = {
     backgroundColor: 'rgba(0, 0, 0, 0.7)',
     position: 'absolute',
     top: 0,
-    right: ({ isOpen }) => (isOpen) ? '-250px' : '-50px',
+    right: ({ isOpen }) => (isOpen) ? '-260px' : '-65px',
     zIndex: -1,
     transition: 'right 0.3s ease',
     borderBottomRightRadius: '5px',
@@ -36,8 +38,12 @@ const styles = {
   title: {
     margin: 0
   },
+  filters: {
+    maxHeight: '300px',
+    overflowY: 'scroll'
+  },
   rightCol: {
-    width: '30px',
+    width: '45px',
     display: 'inline-block',
     verticalAlign: 'top'
   },
@@ -84,15 +90,18 @@ class SecondForm extends Component {
 
     return (
       <div className={classes.wrapper}>
-        { isOpen && <div className={classes.leftCol}>
+        <div className={classes.leftCol}>
           <span className={classes.title}>Guide de recherche</span>
-          <DepartureCities />
-          <AvgTemperature />
-          <Saisonality />
-          <Security />
-          <Activities />
-          <Insolite />
-        </div> }
+
+          <div className={classes.filters}>
+            <DepartureCities />
+            <AvgTemperature />
+            <Saisonality />
+            <Security />
+            <Activities />
+            <Insolite />
+          </div>
+        </div>
 
         <div className={classes.rightCol}>
           <Arrow
