@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import injectSheet from 'react-jss'
 import Arrow from '../Arrow'
 import Activities from '../Activities'
+import DepartureCities from '../DepartureCities'
 
 const icon = {
   width: '30px',
@@ -38,7 +39,11 @@ const styles = {
   },
   activities: {
     extend: icon,
-    backgroundImage: 'url(img/filters/ActivitesGrisFonce.png)'
+    backgroundImage: 'url(img/filters/ActivitesGrisClair.png)'
+  },
+  departureCities: {
+    extend: icon,
+    backgroundImage: 'url(img/filters/VilleDepartGrisClair.png)'
   }
 }
 
@@ -61,6 +66,7 @@ class SecondForm extends Component {
       <div className={classes.wrapper}>
         { isOpen && <div className={classes.leftCol}>
           <span className={classes.title}>Guide de recherche</span>
+          <DepartureCities />
           <Activities />
         </div> }
 
@@ -70,6 +76,7 @@ class SecondForm extends Component {
             isOpen={isOpen}
           />
 
+          <div onClick={this.onClickIcon('departureCities')} className={classes.departureCities} />
           <div onClick={this.onClickIcon('activities')} className={classes.activities} />
         </div>
       </div>
