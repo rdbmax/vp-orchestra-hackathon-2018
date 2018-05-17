@@ -102,3 +102,20 @@ export const getAvgTemperatureFilterOptions = createSelector(
     return options.filter(({ value }) => value).map(({ label }) => label)
   }
 )
+
+export const getSaisonalityFilter = createSelector(
+  getActiveFilters,
+  ({ saisonality }) => saisonality && saisonality.value
+)
+
+export const getSaisonalityFilterOptions = createSelector(
+  getFilteredTrips,
+  trips => {
+    const allSaisonalities = trips
+      .reduce((list, trip) => {
+        const tripSaisonalities = trip.departureDates.map(trip => trip.saisonality)
+        return [ ...list, ...tripSaisonalities ]
+      }, [])
+    return [...new Set(allSaisonalities)]
+  }
+)

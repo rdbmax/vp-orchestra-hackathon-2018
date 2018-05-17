@@ -17,5 +17,9 @@ export const filtersFunctions = {
       if (temperature >= 30 && filterValue === 'Plus de 30°C')
         return true
       return false
-    }))
+    })),
+  saisonality: filterValue => product => product.departureDates
+    .map(deprature => deprature.saisonality)
+    .filter(saisonality => saisonality === filterValue)
+    .includes(filterValue)
 }

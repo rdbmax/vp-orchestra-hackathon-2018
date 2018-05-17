@@ -541,7 +541,7 @@
         "date": "2018-07-01",
         "durationNights": 7,
         "temperature": 40,
-        "saisonality": "basse",
+        "saisonality": "Basse",
         "climate": "Défavorable",
         "price": 958,
         "departureCities": [
@@ -554,7 +554,7 @@
         "date": "2018-07-15",
         "durationNights": 14,
         "temperature": 40,
-        "saisonality": "basse",
+        "saisonality": "Basse",
         "climate": "Défavorable",
         "price": 1568,
         "departureCities": [
