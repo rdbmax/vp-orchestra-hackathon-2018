@@ -1,10 +1,12 @@
 import React from 'react'
 import injectSheet from 'react-jss'
 
+const getImageRandomRotation = () => `rotate(${(-2 + (Math.floor(Math.random()*5)))}deg)`
+
 const styles = {
   wrapper: {
     borderTop: '1px solid rgb(166, 166, 166)',
-    padding: '10px 15px'
+    padding: '35px 15px'
   },
   pictures: {
     width: '300px',
@@ -27,7 +29,6 @@ const styles = {
   product: {
     position: 'relative',
     width: '100%',
-    height: '390px',
     color: '#6C6C6C'
   },
   productLeft: {
@@ -42,7 +43,7 @@ const styles = {
   },
   productBottom: {
     width: '850px',
-    marginTop: '20px'
+    marginTop: '40px'
   },
   tripAdvisor: {
     marginTop: '15px',
@@ -158,7 +159,9 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
       </div>
 
       <div className={classes.productBottom}>
-        <p className={classes.pictures}><img src={trip.image} className={classes.picture} alt={trip.label} /></p>
+        <p className={classes.pictures} style={{ transform: getImageRandomRotation() }}>
+          <img src={trip.image} className={classes.picture} alt={trip.label} />
+        </p>
 
         <div className={classes.pictos}>
           <div className={classes.description}>
