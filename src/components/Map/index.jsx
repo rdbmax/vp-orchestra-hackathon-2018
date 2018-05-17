@@ -6,9 +6,7 @@ import { compose } from 'recompose'
 import { connect } from 'react-redux'
 import { getFilteredTrips } from '../../store/selectors'
 
-const mapStateToProps = state => ({
-  trips: getFilteredTrips(state)
-})
+const mapStateToProps = state => ({ trips: getFilteredTrips(state) })
 
 class Map extends Component {
   static contextTypes = { [MAP]: PropTypes.object }
@@ -18,7 +16,7 @@ class Map extends Component {
   }
 
   componentDidUpdate({ trips }) {
-    if (trips !== this.props.trips)
+    if (trips !== this.props.trips && this.props.trips.length)
       this.context[MAP].fitBounds(this.getLatLngBoundsLiteral())
   }
 
