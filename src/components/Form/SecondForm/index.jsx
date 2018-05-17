@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import injectSheet from 'react-jss'
 import Arrow from '../Arrow'
-// import Activities from './Activities'
+import Activities from '../Activities'
+
+const icon = {
+  width: '30px',
+  height: '30px',
+  backgroundSize: 'contain',
+  backgroundRepeat: 'no-repeat'
+}
 
 const styles = {
   wrapper: {
@@ -28,11 +35,22 @@ const styles = {
     width: '30px',
     display: 'inline-block',
     verticalAlign: 'top'
+  },
+  activities: {
+    extend: icon,
+    backgroundImage: 'url(img/filters/ActivitesGrisFonce.png)'
   }
 }
 
 class SecondForm extends Component {
+  state = { activeFilter: 'activities' }
+
   onClickArrow = () => {
+    this.props.ontoggleForm()
+  }
+
+  onClickIcon = icon => () => {
+    this.setState({ activeFilter: icon })
     this.props.ontoggleForm()
   }
 
@@ -41,18 +59,19 @@ class SecondForm extends Component {
 
     return (
       <div className={classes.wrapper}>
-        <div className={classes.leftCol}>
+        { isOpen && <div className={classes.leftCol}>
           <span className={classes.title}>Guide de recherche</span>
-        </div>
+          <Activities />
+        </div> }
+
         <div className={classes.rightCol}>
           <Arrow
             onClick={this.onClickArrow}
             isOpen={isOpen}
           />
+
+          <div onClick={this.onClickIcon('activities')} className={classes.activities} />
         </div>
-
-
-        {/* <Activities isOpen={isOpenSecond} /> */}
       </div>
     )
   }

@@ -31,6 +31,7 @@ const styles = {
     },
   },
   options: {
+    zIndex: 4,
     width: '276px',
     position: 'absolute',
     bottom: '-3px',
@@ -57,6 +58,7 @@ const styles = {
 }
 
 // props
+// => name
 // => type
 // => value
 // => options
@@ -76,15 +78,14 @@ class Select extends Component {
   }
 
   render() {
-    const { classes, value, options } = this.props
+    const { classes, name, value, options } = this.props
     const { isOpen } = this.state
 
     return (
       <div className={classes.wrapper}>
         <button onClick={this.onClickButton} className={classes.button}>
-          <img src="./img/engine/Ambiance.png" width="15px" height="15px" />&nbsp;&nbsp;&nbsp;
-          <span>Ambiance</span>
-          <span className={classes.currentValue}>&nbsp;{ value }</span>
+          <span>{ name }</span>
+          <span className={classes.currentValue}>{ value }</span>
         </button>
 
         { isOpen && <div className={classes.options}>
