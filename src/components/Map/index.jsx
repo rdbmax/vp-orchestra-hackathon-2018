@@ -76,8 +76,12 @@ class Map extends Component {
         }}
       >
         { trips && trips.map(({ offerDescription: { label, latitude, longitude } }) => (
-          <Marker key={label} position={{ lat: latitude, lng: longitude }} />)
-        ) }
+          <Marker
+            key={label}
+            position={{ lat: latitude, lng: longitude }}
+            icon={{ url: 'img/engine/PinPetit.png' }}
+          />
+        )) }
       </GoogleMap>
     )
   }
