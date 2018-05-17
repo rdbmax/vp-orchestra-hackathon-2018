@@ -136,7 +136,7 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
     <div className={classes.product}>
 
       <div className={classes.productLeft}>
-        <p style={{ fontWeight: "bold", fontSize: "16px" }}>{trip.label} {ratingImgs(trip.stars)}</p>
+        <p style={{ fontWeight: "bold", fontSize: "24px" }}>{trip.label} {ratingImgs(trip.stars)}</p>
         <p>
           <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} width="15px" height="15px" alt='pin' />
           <span style={{ fontWeight: "bold", color: "#B7B7B7" }}> {trip.address}</span> <strong>{trip.country}</strong>
@@ -165,28 +165,24 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
             <p className={classes.label}>{trip.description}</p>
           </div>
           <div className={classes.picto}>
-            <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} alt='departure city' />
+            <img style={{ maxWidth: '20px', maxHeight: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} alt='departure city' />
             <div> {listDepaturesCities(depatures)} </div>
           </div>
           <div className={classes.picto}>
-            <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} alt='activities' />
+            <img style={{ maxWidth: '20px', maxHeight: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} alt='activities' />
             <div> {listTripActivities(trip)} </div>
           </div>
           <div className={classes.picto}>
-            <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} alt='climate' />
+            <img style={{ maxWidth: '20px', maxHeight: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} alt='climate' />
             <div> {weatherLabel(depatures)} </div>
           </div>
           <div className={classes.picto}>
-            <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} alt='temperature' />
+            <img style={{ maxWidth: '20px', maxHeight: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} alt='temperature' />
             <div> {temperatureLabel(depatures)} </div>
           </div>
           <div className={classes.picto}>
-            <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} alt='saisonnality' />
+            <img style={{ maxWidth: '20px', maxHeight: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} alt='saisonnality' />
             <div> {saisonalityLabel(depatures)} </div>
-          </div>
-          <div className={classes.picto}>
-            <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} alt='weather' />
-            <div> {weatherLabel(depatures)} </div>
           </div>
           <div className={classes.picto}>{trip.security && securityBlock()}</div>
         </div>
