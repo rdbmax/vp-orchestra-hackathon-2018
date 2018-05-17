@@ -8,6 +8,11 @@ const styles = {
     borderTop: '1px solid rgb(166, 166, 166)',
     padding: '35px 15px'
   },
+  title: {
+    fontWeight: 'bold',
+    fontSize: '24px',
+    marginBottom: '15px'
+  },
   pictures: {
     width: '300px',
     display: 'inline-block',
@@ -137,7 +142,9 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
     <div className={classes.product}>
 
       <div className={classes.productLeft}>
-        <p style={{ fontWeight: "bold", fontSize: "24px" }}>{trip.label} {ratingImgs(trip.stars)}</p>
+        <p className={classes.title}>
+          {trip.label} {ratingImgs(trip.stars)}
+        </p>
         <p>
           <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} width="15px" height="15px" alt='pin' />
           <span style={{ fontWeight: "bold", color: "#B7B7B7" }}> {trip.address}</span> <strong>{trip.country}</strong>
