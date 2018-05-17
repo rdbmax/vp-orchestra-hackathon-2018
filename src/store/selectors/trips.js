@@ -46,3 +46,23 @@ export const getGroupTypeFilter = createSelector(
   getActiveFilters,
   ({ groupType }) => groupType && groupType.value
 )
+
+export const getDepartureCitiesFilter = createSelector(
+  getActiveFilters,
+  ({ departureCities }) => departureCities && departureCities.value
+)
+
+export const getDepartureCitiesFilterOptions = createSelector(
+  getFilteredTrips,
+  trips => {
+    const allDepartureCities = trips
+      .reduce((list, trip) => {
+        const cities = trip.departureDates.reduce((allCities, departure) => {
+          return [ ...allCities, ...departure.departureCities ]
+        }, [])
+
+        return [ ...list, ...cities ]
+      }, [])
+    return [...new Set(allDepartureCities)]
+  }
+)

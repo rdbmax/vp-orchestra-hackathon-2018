@@ -1,8 +1,10 @@
 export const filtersFunctions = {
   mood: filterValue => product => product.offerDescription.mood.includes(filterValue),
   groupType: filterValue => product => product.offerDescription.groupType.includes(filterValue),
-  // activities: filterValue => product => product.offerDescription.activities.includes(filterValue)
-  activities: filterValue => product => filterValue.every(value => product.offerDescription.activities.includes(value))
+  activities: filterValue => product => filterValue.every(value => product.offerDescription.activities.includes(value)),
+  departureCities: filterValue => product => product.departureDates
+    .reduce((allCities, departure) => ([ ...allCities, ...departure.departureCities ]), [])
+    .includes(filterValue)
 }
 
 // Example :
