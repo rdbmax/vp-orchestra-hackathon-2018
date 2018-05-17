@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import injectSheet from 'react-jss'
 import Mood from './Mood'
 import SecondForm from './SecondForm'
+import GroupType from './GroupType'
 
 const mapWidth = 1024
 
@@ -45,6 +46,7 @@ class Form extends Component {
         <div className={classes.main}>
           <p className={classes.title}>Votre recherche :</p>
 
+          <GroupType />
           <Mood />
         </div>
 

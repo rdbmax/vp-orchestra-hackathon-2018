@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import injectSheet from 'react-jss'
 import Arrow from '../Arrow'
-// import Activities from './Activities'
+import Activities from '../Activities'
 
 const styles = {
   wrapper: {
@@ -52,7 +52,7 @@ class SecondForm extends Component {
         </div>
 
 
-        {/* <Activities isOpen={isOpenSecond} /> */}
+        <Activities />
       </div>
     )
   }
