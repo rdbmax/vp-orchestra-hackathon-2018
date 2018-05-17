@@ -151,8 +151,8 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
         </p>
       </div>
 
-      <div class={classes.productRight}>
-        <p class={classes.price}>À partir de {Math.min.apply(Math, depatures.map(depature => depature.price))}€/pers</p>
+      <div className={classes.productRight}>
+        <p className={classes.price}>À partir de {Math.min.apply(Math, depatures.map(depature => depature.price))}€/pers</p>
         <div className={classes.tripAdvisor}>
           <p>Note <strong>TripAdvisor</strong></p>
           <div>
