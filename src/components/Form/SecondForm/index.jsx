@@ -41,7 +41,7 @@ const styles = {
   },
   filters: {
     maxHeight: '300px',
-    overflowY: 'scroll'
+    overflowY: ({ isOpen }) => (isOpen) ? 'scroll' : 'hidden',
   },
   rightCol: {
     width: '45px',
