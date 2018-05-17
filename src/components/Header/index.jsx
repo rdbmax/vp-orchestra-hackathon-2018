@@ -18,7 +18,8 @@ const styles = {
   },
   sentence: {
     margin: '13px 0 0 0',
-    fontSize: '20px'
+    fontSize: '20px',
+    color: 'white'
   }
 }
 
