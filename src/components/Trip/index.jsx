@@ -103,7 +103,7 @@ const saisonalityLabel = departures => {
 const securityBlock = () => {
   return (
     <div>
-      <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SecuriteRose.png`} />
+      <img alt="safety trip icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SecuriteRose.png`} />
       <div> Pays sûr </div>
     </div>
   )
@@ -125,23 +125,23 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
           <div className={classes.description}>
             <p>{trip.description}</p>
             <div>
-              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
+              <img alt="departure cities icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
               <div> {listDepaturesCities(depatures)} </div>
             </div>
             <div>
-              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} />
+              <img alt="trip activities icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} />
               <div> {listTripActivities(trip)} </div>
             </div>
             <div>
-              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} />
+              <img alt="trip climate icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} />
               <div> {weatherLabel(depatures)} </div>
             </div>
             <div>
-              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} />
+              <img alt="termometer icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} />
               <div> {temperatureLabel(depatures)} </div>
             </div>
             <div>
-              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} />
+              <img alt="saisonnality icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} />
               <div> {saisonalityLabel(depatures)} </div>
             </div>
             {trip.security && securityBlock()}
