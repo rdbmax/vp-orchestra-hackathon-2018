@@ -31,14 +31,17 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
   <div className={classes.wrapper}>
     {trip.label} {ratingImgs(trip.stars)}
     <div>
-      <img src={process.env.PUBLIC_URL + '/img/product/PinLocation.png'} />
-      <div> {trip.address} <b>{trip.country}</b> </div>
+      <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} />
+      <div>{trip.address} <b>{trip.country}</b></div>
       <div > À partir de {Math.min.apply(Math, depatures.map(depature => depature.price))}€/pers</div>
     </div>
     <div>
       <div>Note Tripadvisor</div>
       <div>
-        <img src={`http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/${trip.tripadvisor.rating.toFixed(1)}-MCID-5.png`}></img>
+        <img
+          src={`http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/${trip.tripadvisor.rating.toFixed(1)}-MCID-5.png`}
+          alt='tripadvisor ratings'
+        />
         <div className={classes.opinions}> {trip.tripadvisor.opinions} avis </div>
       </div>
     </div>
