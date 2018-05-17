@@ -1,5 +1,1311 @@
 [
   {
-    "name": "first trip"
+    "offerDescription": {
+      "id": 100,
+      "label": "Hôtel H-Top Caleta Palace",
+      "description": "Un véritable havre de paix avec vue sur l'océan Atlantique et ses paysages à couper le souffle...",
+      "address": "Playa d'Aro",
+      "country": "Espagne",
+      "stars": 4,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/PLAYAFIESTAPP/PP_SJ_CALETA_PALACE./diaporama/02a.jpg",
+      "longitude": 3.066855900000064,
+      "latitude": 41.8179488,
+      "tripadvisor": {
+        "opinions": 123,
+        "rating": 5
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Famille",
+        "Couple",
+        "Amis",
+        "Solo"
+      ],
+      "mood": [
+        "Fêtard",
+        "Citadin",
+        "Détente"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Shopping",
+        "Activités sportives",
+        "Thalasso et Spa"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-08-10",
+        "durationNights": 3,
+        "temperature": 27,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 143,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-07-20",
+        "durationNights": 7,
+        "temperature": 28,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 253,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-09-20",
+        "durationNights": 14,
+        "temperature": 27,
+        "saisonality": "Moyenne",
+        "climate": "Très favorable",
+        "price": 304,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 101,
+      "label": "Hôtel Alba Seleqtta",
+      "description": "A proximité de la plage et du vieux centre de Lloret de Mar. Emplacement à flanc de montagne permetant de profiter d’un superbe panorama depuis le restaurant",
+      "address": "Lloret de Mar",
+      "country": "Espagne",
+      "stars": 5,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/PLAYAFIESTAPP/PP_ALBA_SELEQTTA_PC./diaporama/00.jpg",
+      "longitude": 2.8398067000000538,
+      "latitude": 41.70055130000001,
+      "tripadvisor": {
+        "opinions": 323,
+        "rating": 4.5
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Famille",
+        "Couple",
+        "Amis"
+      ],
+      "mood": [
+        "Citadin",
+        "Détente",
+        "Festif"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Activités sportives",
+        "Sites naturels",
+        "Balades et randonnées"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-06-01",
+        "durationNights": 3,
+        "temperature": 26,
+        "saisonality": "Moyenne",
+        "climate": "Très favorable",
+        "price": 120,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-07-15",
+        "durationNights": 7,
+        "temperature": 28,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 225,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-09-10",
+        "durationNights": 14,
+        "temperature": 21,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 104,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 102,
+      "label": "Hôtel H-Top Amaika",
+      "description": "Un hôtel vivement recommandé à Calella avec une situation très centrale. Idéal pour des vacances romantiques dans un décor inspiré du célèbre navire Titanic, un superbe séjour en couple ou entre amis",
+      "address": "Calella de Palafrugell",
+      "country": "Espagne",
+      "stars": 3,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/PLAYAFIESTAPP/PP_SJ_AMAIKA_PDJ_SUP./diaporama/00e.jpg",
+      "longitude": 3.185781600000041,
+      "latitude": 41.8923794,
+      "tripadvisor": {
+        "opinions": 269,
+        "rating": 3
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Couple",
+        "Amis"
+      ],
+      "mood": [
+        "Détente",
+        "Festif",
+        "Authentique"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Sites naturels",
+        "Balades et randonnées",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-05-12",
+        "durationNights": 3,
+        "temperature": 19,
+        "saisonality": "Basse",
+        "climate": "Favorable",
+        "price": 112,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-07-12",
+        "durationNights": 7,
+        "temperature": 26,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 325,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-10-19",
+        "durationNights": 14,
+        "temperature": 15,
+        "saisonality": "Basse",
+        "climate": "Favorable",
+        "price": 404,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 103,
+      "label": "Ôclub Experience La Palma Princess",
+      "description": "La Palma, île confidentielle aux paysages d'exception : volcans imposants, forêts profondes, plages, ciel étoilé (observatoire des étoiles), salines. Situation exceptionnelle du ôclub surplombant l’océan, adossé à la montagne",
+      "address": "La Palma, Santa Cruz de Ténérife",
+      "country": "Iles Canaries",
+      "stars": 5,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/THALASSON1/VAI4H01755./diaporama/09A.jpg",
+      "longitude": -17.905781299999944,
+      "latitude": 28.7133828,
+      "tripadvisor": {
+        "opinions": 542,
+        "rating": 5
+      },
+      "security": false,
+      "insolite": true,
+      "groupType": [
+        "Famille"
+      ],
+      "mood": [
+        "Détente",
+        "Festif"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Sites naturels",
+        "Thalasso et Spa",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-04-02",
+        "durationNights": 3,
+        "temperature": 21,
+        "saisonality": "Moyenne",
+        "climate": "Favorable",
+        "price": 462,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-08-15",
+        "durationNights": 7,
+        "temperature": 26,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 547,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-12-26",
+        "durationNights": 14,
+        "temperature": 19,
+        "saisonality": "Basse",
+        "climate": "Moyen",
+        "price": 639,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 104,
+      "label": "Cottage Woodlands Villas",
+      "description": "Un havre de paix avec vue sur l'océan Atlantique et les montagnes escarpées environnantes. De luxueuses villas très bien équipées au confort moderne et accès libre au centre de remise en forme du site",
+      "address": "Comté de Kerry",
+      "country": "Irlande",
+      "stars": 4,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/BRITTANY_FERRIES/WOOD_PARK_2./diaporama/01.jpg",
+      "longitude": -9.566863300000023,
+      "latitude": 52.15446069999999,
+      "tripadvisor": {
+        "opinions": 428,
+        "rating": 4
+      },
+      "security": false,
+      "insolite": true,
+      "groupType": [
+        "Amis",
+        "Couple",
+        "Solo"
+      ],
+      "mood": [
+        "Détente",
+        "Citadin",
+        "Authentique"
+      ],
+      "activities": [
+        "Sites naturels",
+        "Thalasso et Spa",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-03-02",
+        "durationNights": 3,
+        "temperature": 5,
+        "saisonality": "Basse",
+        "climate": "Très défavorable",
+        "price": 185,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-07-10",
+        "durationNights": 7,
+        "temperature": 19,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 247,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-08-10",
+        "durationNights": 14,
+        "temperature": 20,
+        "saisonality": "Haute",
+        "climate": "Moyen",
+        "price": 346,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 105,
+      "label": "Circuit Prague",
+      "description": "Český Krumlov, petite ville médiévale pittoresque inscrite au patrimoine mondial de l’UNESCO. České Budĕjovice, métropole de la Bohême du sud",
+      "address": "Náměstí Republiky 5, Praha 1",
+      "country": "République Tchèque",
+      "stars": 5,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/PLUSBELLELEUROPE/5682./diaporama/01.jpg",
+      "longitude": 14.42824870000004,
+      "latitude": 50.08762280000001,
+      "tripadvisor": {
+        "opinions": 148,
+        "rating": 3
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Amis",
+        "Solo"
+      ],
+      "mood": [
+        "Authentique",
+        "Citadin",
+        "Festif"
+      ],
+      "activities": [
+        "Activités sportives",
+        "Balades et randonnées",
+        "Shopping",
+        "Thalasso et Spa",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-06-14",
+        "durationNights": 3,
+        "temperature": 19,
+        "saisonality": "Moyenne",
+        "climate": "Favorable",
+        "price": 459,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-07-19",
+        "durationNights": 7,
+        "temperature": 24,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 587,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      },
+      {
+        "date": "2018-09-23",
+        "durationNights": 14,
+        "temperature": 20,
+        "saisonality": "Moyenne",
+        "climate": "Moyen",
+        "price": 846,
+        "departureCities": [
+          "Paris",
+          "Bordeaux",
+          "Lyon",
+          "Nice",
+          "Nantes",
+          "Toulouse"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 1,
+      "label": "Hôtel Somewhere Hop Barsha Heights",
+      "description": "En route pour Dubaï, la ville qui vous en met plein les yeux !",
+      "address": "Al Thanayah – 1, Barsha Heights, Dubaï ",
+      "country": "Emirats Arabes Unis",
+      "stars": 4,
+      "image": "https://back-vpvoyages.orchestra-platform.com/admin/TS/fckUserFiles/Image/1_ES_MISTERFLY/EAU/DUBAI/SOMEWHERE_ALBARSHA_DUBAI/SOMEWHERE_ALBARSHA_DUBAI_Diapo_01.jpg",
+      "longitude": 55.178548999999975,
+      "latitude": 25.102343,
+      "tripadvisor": {
+        "opinions": 38,
+        "rating": 4.5
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Famille",
+        "Amis",
+        "Solo"
+      ],
+      "mood": [
+        "Citadin",
+        "Détente"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Shopping"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 40,
+        "saisonality": "basse",
+        "climate": "Défavorable",
+        "price": 958,
+        "departureCities": [
+          "Bordeaux",
+          "Paris",
+          "Genève"
+        ]
+      },
+      {
+        "date": "2018-07-15",
+        "durationNights": 14,
+        "temperature": 40,
+        "saisonality": "basse",
+        "climate": "Défavorable",
+        "price": 1568,
+        "departureCities": [
+          "Bordeaux",
+          "Paris",
+          "Genève"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 2,
+      "label": "Hôtel Giftun Azur Resort l Hurghada",
+      "description": "1 semaine de croisière sur le Nil offerte (1), entrée au Bouddha Bar (hors boissons) par séjour et par personne offerte",
+      "address": "Youssef Afifi Road, Hurghada 54811",
+      "country": "Egypte",
+      "stars": 1,
+      "image": "//static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/TRAVELEVASION/EGDEESGITT./diaporama/04a.jpg",
+      "longitude": 33.8269219,
+      "latitude": 27.1851785,
+      "tripadvisor": {
+        "opinions": 433,
+        "rating": 3.5
+      },
+      "security": false,
+      "insolite": true,
+      "groupType": [
+        "Amis",
+        "Solo"
+      ],
+      "mood": [
+        "Festif",
+        "Détente"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Sites naturels",
+        "Thalasso et Spa"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-11-15",
+        "durationNights": 7,
+        "temperature": 23,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 699,
+        "departureCities": [
+          "Paris"
+        ]
+      },
+      {
+        "date": "2018-11-25",
+        "durationNights": 7,
+        "temperature": 23,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 659,
+        "departureCities": [
+          "Paris",
+          "Nice",
+          "Lyon"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 3,
+      "label": "Hôtel Cape Point Erf 171",
+      "description": "Hôtel situé est à 3 minutes à pied de la plage",
+      "address": "96 Kuiseb Avenue, 9999 Langstrand",
+      "country": "Namibie",
+      "stars": 1,
+      "image": "//static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/CARPEDIEM/NAMIBIE_BIVOUAC_2017./diaporama/12.jpg",
+      "longitude": 14.542950700000006,
+      "latitude": -22.8201349,
+      "tripadvisor": {
+        "opinions": 49,
+        "rating": 4
+      },
+      "security": true,
+      "insolite": true,
+      "groupType": [
+        "Amis",
+        "Solo",
+        "Couple"
+      ],
+      "mood": [
+        "Authentique",
+        "Aventure",
+        "Détente"
+      ],
+      "activities": [
+        "Balades et randonnées",
+        "Sites naturels",
+        "Safari"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2019-04-01",
+        "durationNights": 7,
+        "temperature": 26,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 380,
+        "departureCities": [
+          "Paris",
+          "Lyon"
+        ]
+      },
+      {
+        "date": "2019-04-15",
+        "durationNights": 7,
+        "temperature": 26,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 370,
+        "departureCities": [
+          "Paris",
+          "Lyon"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 4,
+      "label": "Africa Jade Thalasso 4* Korba",
+      "description": "Séjour détente et Thalasso dans un hôtel typique en bord de plage",
+      "address": "Avenue Habib Bourguiba, Korba 8070",
+      "country": "Tunisie",
+      "stars": 4,
+      "image": "https://back-vpvoyages.orchestra-platform.com/admin/TS/fckUserFiles/Image/1_ES_MISTERFLY/AFRICA/TUNISIA/KORBA/AFRICA_JADE_THALASSO/AFRICA_JADE_THALASSO_Diapo_01.jpg",
+      "longitude": 10.858687,
+      "latitude": 36.559975,
+      "tripadvisor": {
+        "opinions": 704,
+        "rating": 4
+      },
+      "security": false,
+      "insolite": false,
+      "groupType": [
+        "Amis",
+        "Famille",
+        "Couple"
+      ],
+      "mood": [
+        "Authentique",
+        "Citadin",
+        "Détente"
+      ],
+      "activities": [
+        "Balades et randonnées",
+        "Sites naturels",
+        "Thalasso et Spa"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-08-01",
+        "durationNights": 7,
+        "temperature": 28,
+        "saisonality": "Haute",
+        "climate": "Très favorable",
+        "price": 250,
+        "departureCities": [
+          "Paris",
+          "Nice"
+        ]
+      },
+      {
+        "date": "2018-08-15",
+        "durationNights": 7,
+        "temperature": 30,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 330,
+        "departureCities": [
+          "Paris",
+          "Lyon"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 5,
+      "label": "Hôtel Margarita |  Pointe aux Piments",
+      "description": "Une charmante petite structure où règne une atmosphère conviviale, calme et décontractée",
+      "address": "Maurice, B35, Triolet",
+      "country": "Maurice",
+      "stars": 2,
+      "image": "//static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/TN1FLEX/Fusion_La_Margarita_OP./diaporama/00.jpg",
+      "longitude": 57.544440699999996,
+      "latitude": -20.0582455,
+      "tripadvisor": {
+        "opinions": 26,
+        "rating": 4.5
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Famille",
+        "Couple"
+      ],
+      "mood": [
+        "Détente"
+      ],
+      "activities": [
+        "Sites naturels",
+        "Thalasso et Spa",
+        "Activités nautiques"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2019-01-01",
+        "durationNights": 7,
+        "temperature": 24,
+        "saisonality": "Moyenne",
+        "climate": "Très favorable",
+        "price": 1250,
+        "departureCities": [
+          "Paris",
+          "Nice",
+          "Lyon",
+          "Nantes"
+        ]
+      },
+      {
+        "date": "2019-01-27",
+        "durationNights": 7,
+        "temperature": 30,
+        "saisonality": "Moyenne",
+        "climate": "Très favorable",
+        "price": 1330,
+        "departureCities": [
+          "Paris",
+          "Lyon",
+          "Nice",
+          "Nantes"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 6,
+      "label": "Hôtel bh Bicentenario, Bogota",
+      "description": "Un logement au centre de Bogota",
+      "address": "La Candelaria, Bogotá",
+      "country": "Colombie",
+      "stars": 3,
+      "image": "//static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/AMERIGO/AMG_CIR_COLOMBIE_2018_2019./diaporama/00.jpg",
+      "longitude": -74.07287589999999,
+      "latitude": 4.597014,
+      "tripadvisor": {
+        "opinions": 125,
+        "rating": 4
+      },
+      "security": false,
+      "insolite": true,
+      "groupType": [
+        "Amis",
+        "Couple"
+      ],
+      "mood": [
+        "Citadin",
+        "Aventure"
+      ],
+      "activities": [
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-09-01",
+        "durationNights": 14,
+        "temperature": 18,
+        "saisonality": "Moyenne",
+        "climate": "Favorable",
+        "price": 2250,
+        "departureCities": [
+          "Paris",
+          "Nice",
+          "Lyon",
+          "Nantes"
+        ]
+      },
+      {
+        "date": "2019-09-15",
+        "durationNights": 14,
+        "temperature": 30,
+        "saisonality": "Moyenne",
+        "climate": "Favorable",
+        "price": 2330,
+        "departureCities": [
+          "Paris",
+          "Lyon",
+          "Nice",
+          "Nantes"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 301,
+      "label": "Hotel Du Golf Marrakech",
+      "description": "Adresse 5* au cœur du Palmeraie Resort, l'Hôtel du Golf ouvre ses portes à l’écart de l’effervescence, dans l’un des quartiers les plus prisés de Marrakech. Véritable oasis de verdure au bord du PalmGolf Marrakech Palmeraie, il reçoit ses hôtes dans de vastes chambres ouvrant sur la piscine ou le jardin fleuri. ",
+      "address": "Circuit de la Palmeraie BP 1488, - La Palmeraie, 40000",
+      "country": "Marrakech",
+      "stars": 5,
+      "image": "https://back-misterfly.orchestra-platform.com/admin/TS/fckUserFiles/Image/WHITE_LABEL/AFRIQUE/MAROC/MARRAKECH/HOTEL_DU_GOLF/HOTEL_DU_GOLF_Diapo_02.jpg",
+      "longitude": -7.96912199999997,
+      "latitude": 31.685651,
+      "tripadvisor": {
+        "opinions": 979,
+        "rating": 4
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Famille",
+        "Couple"
+      ],
+      "mood": [
+        "Citadin",
+        "Détente"
+      ],
+      "activities": [
+        "Activités sportives",
+        "Shopping",
+        "Thalasso et Spa",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 34,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 1534,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 23,
+        "saisonality": "Moyenne",
+        "climate": "Favorable",
+        "price": 1246,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 302,
+      "label": "Ananda Cottages",
+      "description": "Situé à Ubud au cœur des terres balinaises, l’hôtel Ananda Cottages 3* est un établissement familial au charme purement traditionnel. Il se trouve à seulement 4 minutes en voiture du centre de Ubud, haut-lieu de la culture locale, et à 9 minutes du marché traditionnel. ",
+      "address": "Jl. Raya Campuhan, Ubud, Kedewatan, Gianyar, Kabupaten Gianyar, Bali 80571",
+      "country": "Indonésie",
+      "stars": 5,
+      "image": "https://back-vpvoyages.orchestra-platform.com/admin/TS/fckUserFiles/Image/1_ES_MISTERFLY/ASIA/BALI/ANANDA-COTTAGE-UBUD_PRAMA-SANUR-BEACH/ANANDA-COTTAGE-UBUD_PRAMA-SANUR-BEACH_Diapo_01.jpg",
+      "longitude": 115.25316399999997,
+      "latitude": -8.496267,
+      "tripadvisor": {
+        "opinions": 565,
+        "rating": 4
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Famille",
+        "Couple"
+      ],
+      "mood": [
+        "Aventure",
+        "Détente"
+      ],
+      "activities": [
+        "Activités sportives",
+        "Balades et randonnées",
+        "Sites naturels",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 34,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 826,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 34,
+        "saisonality": "Basse",
+        "climate": "Défavorable",
+        "price": 826,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 303,
+      "label": "Prama Sanur Beach",
+      "description": "Situé à Ubud au cœur des terres balinaises, l’hôtel Ananda Cottages 3* est un établissement familial au charme purement traditionnel. Il se trouve à seulement 4 minutes en voiture du centre de Ubud, haut-lieu de la culture locale, et à 9 minutes du marché traditionnel.",
+      "address": "Jalan Cemara, Sanur, Denpasar Selatan, Sanur Kauh, Denpasar Selatan, Sanur Kauh, Denpasar Sel., Kota Denpasar, Bali 80228",
+      "country": "Indonésie",
+      "stars": 5,
+      "image": "https://back-vpvoyages.orchestra-platform.com/admin/TS/fckUserFiles/Image/1_ES_MISTERFLY/ASIA/BALI/ANANDA-COTTAGE-UBUD_PRAMA-SANUR-BEACH/ANANDA-COTTAGE-UBUD_PRAMA-SANUR-BEACH_Diapo_02.jpg",
+      "longitude": 115.25635,
+      "latitude": -8.709614,
+      "tripadvisor": {
+        "opinions": 565,
+        "rating": 4
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Amis",
+        "Couple",
+        "Famille",
+        "Solo"
+      ],
+      "mood": [
+        "Authentique",
+        "Aventure",
+        "Détente"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Balades et randonnées",
+        "Sites naturels",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 34,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 826,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 30,
+        "saisonality": "Basse",
+        "climate": "Défavorable",
+        "price": 826,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 304,
+      "label": "Hôtel Coral Bang Saphan",
+      "description": "L'hôtel Coral Bang Saphan 3* sup est un hôtel de taille humaine et convivial au style traditionnel, qui se confond totalement dans la nature. Il est implanté dans une cocoteraie d'un hectare et situé en bordure de mer, s'ouvrant sur une plage sauvage de plusieurs dizaines de kilomètres. Il se trouve à mi-chemin de Bang Saphan Yai (on y trouve les commodités modernes telles que des banques, des commerces, des marchés, des bars et internet...) et de Bang Saphan Noi (petit village de pêcheurs aux maisons de bois qui gardent l'aspect de la vie rurale thaï de toujours).",
+      "address": "171 Moo 9 Baan Suan Luang, T.Pongprasart, Bangsaphan Yai, Prachuap Khiri Khan 77140",
+      "country": "Thaïlande",
+      "stars": 3,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/CLIMATSDUMONDE/SEJ_BANG_SAPHAN./diaporama/26.jpg",
+      "longitude": 99.496487,
+      "latitude": 11.164691,
+      "tripadvisor": {
+        "opinions": 613,
+        "rating": 4.5
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Couple",
+        "Famille"
+      ],
+      "mood": [
+        "Authentique",
+        "Aventure",
+        "Festif"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Balades et randonnées",
+        "Sites naturels"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 34,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 826,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 34,
+        "saisonality": "Basse",
+        "climate": "Défavorable",
+        "price": 826,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 305,
+      "label": "Hôtel Bangsak Village",
+      "description": "Moins connue, Khao Lak demeure encore préservé et offre à ses voyageurs un cadre naturel magique. Paysages spectaculaires, soleil brillant, eau turquoise, plages vierges au sable fin... Tous les ingrédients sont réunis pour un séjour réussi. Découvrez l’envoutante Thaïlande au sein de l’hôtel Bangsak Village 4*. Cet établissement « les pieds dans l’eau » est idéalement situé au cœur de la région typique de Khao Lak, réputée pour sa tranquillité, son authenticité et ses superbes plages. Le Bangsak Village se trouve à 1 heure de route de l'aéroport international de Phuket ainsi qu'à 22 km de la plage de Khao Lak.",
+      "address": "2/1 Moo 6 Petchkasem Road, Takua Pa, 82190",
+      "country": "Thaïlande",
+      "stars": 4,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/VISITEURSPP/BANGSAK_VILLAGE_SUP./diaporama/01.jpg",
+      "longitude": 98.26488689999996,
+      "latitude": 8.7695633,
+      "tripadvisor": {
+        "opinions": 514,
+        "rating": 4.5
+      },
+      "security": true,
+      "insolite": true,
+      "groupType": [
+        "Amis",
+        "Couple",
+        "Solo"
+      ],
+      "mood": [
+        "Détente",
+        "Festif"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Activités sportives",
+        "Balades et randonnées",
+        "Sites naturels",
+        "Thalasso et Spa"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 34,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 776,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 34,
+        "saisonality": "Moyenne",
+        "climate": "Défavorable",
+        "price": 776,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 306,
+      "label": "hôtel Lotus Garden",
+      "description": "Elle est la station balnéaire la plus connue de l’archipel. Pour des vacances inoubliables, de jour comme de nuit, Boracay est la destination parfaite : plages de sable blanc à perte de vue, spas, bars, discothèques, restaurants et activités nautiques en tout genre. Ce n’est pas un hasard si Boracay est surnommée le « Saint-Tropez asiatique ».",
+      "address": "1227 A Mabini St. cor. P. Faura St.,, Ermita, Manila, 1000 Metro Manila",
+      "country": "Philippines",
+      "stars": 3,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/ALLIANCE_DU_MONDE_/SEJ_BORACAY./diaporama/00.jpg",
+      "longitude": 120.98111730000005,
+      "latitude": 14.5775346,
+      "tripadvisor": {
+        "opinions": 482,
+        "rating": 4
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Amis",
+        "Famille"
+      ],
+      "mood": [
+        "Détente"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Sites naturels",
+        "Thalasso et Spa",
+        "Visites culturelles"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 30,
+        "saisonality": "Haute",
+        "climate": "Défavorable",
+        "price": 1590,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 30,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 1590,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
+  },
+  {
+    "offerDescription": {
+      "id": 307,
+      "label": "Hôtel Onyx Style Nai Harn Beach",
+      "description": "Situé à 5 minutes en voiture de Nai Harn et de la plage de Rawai, le Two Villas Holiday Phuket propose des villas spacieuses dotées d'une cuisine et d'une piscine privée. Le Two Villas Phuket se trouve à 20 minutes de route de la ville de Phuket et à 45 minutes en voiture de l'aéroport international de Phuket.",
+      "address": "136/275 Moo4, Soi Pattana Saiyuan-Kata Road, Rawai, Muang, Phuket 83130",
+      "country": "Thaïlande",
+      "stars": 3,
+      "image": "https://static-vpvoyages.orchestra-platform.com/shared-cs/media/fckUserFiles/pictures/fr/TO/MONAGENCEPP/PP_PHUKET_TWO_VILLAS_HOLIDAY./diaporama/01.jpg",
+      "longitude": 98.330964,
+      "latitude": 7.803013000000001,
+      "tripadvisor": {
+        "opinions": 464,
+        "rating": 4
+      },
+      "security": true,
+      "insolite": false,
+      "groupType": [
+        "Amis",
+        "Solo"
+      ],
+      "mood": [
+        "Authentique",
+        "Détente",
+        "Festif"
+      ],
+      "activities": [
+        "Activités nautiques",
+        "Activités sportives",
+        "Balades et randonnées",
+        "Thalasso et Spa"
+      ]
+    },
+    "departureDates": [
+      {
+        "date": "2018-07-01",
+        "durationNights": 7,
+        "temperature": 30,
+        "saisonality": "Haute",
+        "climate": "Favorable",
+        "price": 892,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      },
+      {
+        "date": "2018-04-01",
+        "durationNights": 14,
+        "temperature": 30,
+        "saisonality": "Basse",
+        "climate": "Défavorable",
+        "price": 892,
+        "departureCities": [
+          "Toulouse",
+          "Paris",
+          "Lyon",
+          "Bordeaux"
+        ]
+      }
+    ]
   }
 ]

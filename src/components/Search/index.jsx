@@ -10,7 +10,9 @@ const styles = {
   mapContainter: {
     margin: '0 auto',
     width: '1024px',
-    height: '550px'
+    height: '550px',
+    border: '4px solid white',
+    boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.3)'
   },
   mapElement: {
     height: '100%'
