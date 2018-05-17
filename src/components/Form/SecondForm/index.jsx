@@ -33,9 +33,10 @@ const styles = {
     color: 'white',
     width: '200px',
     display: 'inline-block',
-    verticalAlign: 'top'
+    verticalAlign: 'top',
   },
   title: {
+    color: 'white',
     margin: 0
   },
   filters: {
