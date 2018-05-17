@@ -10,6 +10,7 @@ const mapDispatchToProps = { onChange: updateFilter }
 
 const Mood = ({ onChange, value }) => (
   <Select
+    name='Ambiance'
     type='mood'
     options={filtersOptions.mood}
     value={value}

@@ -27,3 +27,22 @@ export const getMoodFilter = createSelector(
   getActiveFilters,
   ({ mood }) => mood && mood.value
 )
+
+export const getActivitiesFilter = createSelector(
+  getActiveFilters,
+  ({ activities }) => activities && activities.value
+)
+
+export const getActivitiesFilterOptions = createSelector(
+  getFilteredTrips,
+  trips => {
+    const allActivities = trips
+      .reduce((list, trip) => [ ...list, ...trip.offerDescription.activities ], [])
+    return [...new Set(allActivities)]
+  }
+)
+
+export const getGroupTypeFilter = createSelector(
+  getActiveFilters,
+  ({ groupType }) => groupType && groupType.value
+)
