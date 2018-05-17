@@ -66,3 +66,39 @@ export const getDepartureCitiesFilterOptions = createSelector(
     return [...new Set(allDepartureCities)]
   }
 )
+
+export const getAvgTemperatureFilter = createSelector(
+  getActiveFilters,
+  ({ avgTemperature }) => avgTemperature && avgTemperature.value
+)
+
+export const getAvgTemperatureFilterOptions = createSelector(
+  getFilteredTrips,
+  trips => {
+    const allTemperatures = trips.reduce((temperatures, trip) => {
+      const tripTemperatures = trip.departureDates.map(trip => trip.temperature)
+      return [ ...temperatures, ...tripTemperatures ]
+    }, [])
+
+    const options = [
+      {
+        label: 'Moins de 10°C',
+        value: Boolean(allTemperatures.find(temperature => temperature < 10))
+      },
+      {
+        label: 'Entre 10 et 20°C',
+        value: Boolean(allTemperatures.find(temperature => temperature >= 10 && temperature < 20))
+      },
+      {
+        label: 'Entre 20 et 30°C',
+        value: Boolean(allTemperatures.find(temperature => temperature >= 20 && temperature < 30))
+      },
+      {
+        label: 'Plus de 30°C',
+        value: Boolean(allTemperatures.find(temperature => temperature >= 30))
+      }
+    ]
+
+    return options.filter(({ value }) => value).map(({ label }) => label)
+  }
+)

@@ -3,6 +3,7 @@ import injectSheet from 'react-jss'
 import Arrow from '../Arrow'
 import Activities from '../Activities'
 import DepartureCities from '../DepartureCities'
+import AvgTemperature from '../AvgTemperature'
 
 const icon = {
   width: '30px',
@@ -44,6 +45,10 @@ const styles = {
   departureCities: {
     extend: icon,
     backgroundImage: 'url(img/filters/VilleDepartGrisClair.png)'
+  },
+  avgTemperature: {
+    extend: icon,
+    backgroundImage: 'url(img/filters/TemperatureGrisClair.png)'
   }
 }
 
@@ -67,6 +72,7 @@ class SecondForm extends Component {
         { isOpen && <div className={classes.leftCol}>
           <span className={classes.title}>Guide de recherche</span>
           <DepartureCities />
+          <AvgTemperature />
           <Activities />
         </div> }
 
@@ -77,6 +83,7 @@ class SecondForm extends Component {
           />
 
           <div onClick={this.onClickIcon('departureCities')} className={classes.departureCities} />
+          <div onClick={this.onClickIcon('avgTemperature')} className={classes.avgTemperature} />
           <div onClick={this.onClickIcon('activities')} className={classes.activities} />
         </div>
       </div>
