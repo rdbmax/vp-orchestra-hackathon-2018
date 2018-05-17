@@ -3,6 +3,7 @@ import injectSheet from 'react-jss'
 import Header from './components/Header'
 import Search from './components/Search'
 import Results from './components/Results'
+import Footer from './components/Footer'
 
 const styles = {
   app: {
@@ -18,6 +19,7 @@ const App = ({ classes }) => (
     <Header />
     <Search />
     <Results />
+    <Footer />
   </div>
 )
 
