@@ -19,7 +19,7 @@ const styles = {
     backgroundColor: 'rgb(247, 247, 247)',
     color: 'white',
     borderRadius: '3px',
-    minHeight: '350px'
+    minHeight: '320px'
   },
   title: {
     color: 'black',
