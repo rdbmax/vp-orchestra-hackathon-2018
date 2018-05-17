@@ -28,6 +28,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "jss-extend": "^6.2.0",
     "jss-nested": "^6.0.1",
     "jss-vendor-prefixer": "^8.0.0",
     "object-assign": "4.1.1",
