@@ -7,13 +7,46 @@ const styles = {
     padding: '40px 45px'
     // position: 'relative'
   },
+  pictures: {
+    width: '300px',
+    float: 'left',
+    marginTop: '10px',
+  },
   picture: {
     width: '300px',
     border: '3px solid white',
-    boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.45)'
+    boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.45)',
+  },
+  description: {
+    marginLeft: '310px',
   },
   opinions: {
     textDecoration: 'underline'
+  },
+  product: {
+    width: '100%',
+    height: '400px',
+    color: '#6C6C6C'
+  },
+  productLeft: {
+    float: "left",
+    width: "680px",
+    height: "200px",
+    padding: "5px 10px"
+  },
+  productRight: {
+    height: "200px",
+    float: "right",
+    textAlign: 'right',
+  },
+  tripAdvisor: {
+    marginTop: '15px',
+    color: '#6C6C6C',
+  },
+  price: {
+    color: '#EF1D96',
+    fontWeight: 'bold',
+    fontSize: '23px',
   }
 }
 
@@ -23,36 +56,46 @@ const ratingImgs = ( stars ) => {
   return arrTmp.map((elmt, index) => <img
     key={`star-${index}`}
     src={process.env.PUBLIC_URL + '/img/product/Etoile.png'}
-    style={{ width: '20px' }}
+    style={{ width: '10px' }}
   />)
 }
 
 const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, classes }) => (
   <div className={classes.wrapper}>
-    {trip.label} {ratingImgs(trip.stars)}
-    <div>
-      <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} />
-      <div>{trip.address} <b>{trip.country}</b></div>
-      <div > À partir de {Math.min.apply(Math, depatures.map(depature => depature.price))}€/pers</div>
-    </div>
-    <div>
-      <div>Note Tripadvisor</div>
-      <div>
-        <img
-          src={`http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/${trip.tripadvisor.rating.toFixed(1)}-MCID-5.png`}
-          alt='tripadvisor ratings'
-        />
-        <div className={classes.opinions}> {trip.tripadvisor.opinions} avis </div>
+
+    <div className={classes.product}>
+
+      <div class={classes.productLeft}>
+        <p style={{fontWeight: "bold", fontSize: "16px"}}>{trip.label} {ratingImgs(trip.stars)}</p>
+        <p>
+          <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} width="15px" height="15px" />
+          <span style={{fontWeight: "bold", color: "#B7B7B7"}}> {trip.address}</span> <strong>{trip.country}</strong>
+        </p>
+        <div>
+          <p className={classes.pictures}><img src={trip.image} className={classes.picture} alt={trip.label} /></p>
+          <div className={classes.description}>
+            <p>{trip.description}</p>
+            <div>
+              <img src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
+              <div> { [...new Set(depatures.reduce((acc, curr) => acc + curr.departureCities, ''))] } </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div>
-      <img className={classes.picture} src={trip.image} alt={trip.label} />
-      <div>
-        {trip.description}
-      </div>
-      <div>
-        <img src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
-        <div> { [...new Set(depatures.reduce((acc, curr) => acc + curr.departureCities, ''))] } </div>
+
+      <div class={classes.productRight}>
+        <p class={classes.price}>À partir de {Math.min.apply(Math, depatures.map(depature => depature.price))}€/pers</p>
+        <div className={classes.tripAdvisor}>
+          <p>Note <strong>TripAdvisor</strong></p>
+          <div style={{display : 'none'}}>
+            <img
+              src={`http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/${trip.tripadvisor.rating.toFixed(1)}-MCID-5.png`}
+              alt='tripadvisor ratings'
+            />
+            <p className={classes.opinions}> {trip.tripadvisor.opinions} avis</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
