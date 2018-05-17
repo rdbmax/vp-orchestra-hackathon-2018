@@ -5,7 +5,6 @@ const styles = {
   wrapper: {
     borderTop: '1px solid rgb(166, 166, 166)',
     padding: '40px 45px'
-    // position: 'relative'
   },
   pictures: {
     width: '300px',
@@ -57,6 +56,7 @@ const ratingImgs = ( stars ) => {
     key={`star-${index}`}
     src={process.env.PUBLIC_URL + '/img/product/Etoile.png'}
     style={{ width: '10px' }}
+    alt='rating star'
   />)
 }
 
@@ -89,7 +89,7 @@ const listTripActivities = trip => {
 
   return activitiesStr.substr(2)
 };
-  
+
 const weatherLabel = departures => departures[0].climate
 
 const temperatureLabel = departures => {
@@ -103,7 +103,7 @@ const saisonalityLabel = departures => {
 const securityBlock = () => {
   return (
     <div>
-      <img alt="safety trip icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SecuriteRose.png`} />
+      <img alt='safety trip icon' style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SecuriteRose.png`} />
       <div> Pays sûr </div>
     </div>
   )
@@ -117,7 +117,7 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
       <div class={classes.productLeft}>
         <p style={{ fontWeight: "bold", fontSize: "16px" }}>{trip.label} {ratingImgs(trip.stars)}</p>
         <p>
-          <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} width="15px" height="15px" />
+          <img src={`${process.env.PUBLIC_URL}/img/product/PinLocation.png`} width="15px" height="15px" alt='pin' />
           <span style={{ fontWeight: "bold", color: "#B7B7B7" }}> {trip.address}</span> <strong>{trip.country}</strong>
         </p>
         <div>
@@ -125,23 +125,23 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
           <div className={classes.description}>
             <p>{trip.description}</p>
             <div>
-              <img alt="departure cities icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} alt='departure city' />
               <div> {listDepaturesCities(depatures)} </div>
             </div>
             <div>
-              <img alt="trip activities icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} alt='activities' />
               <div> {listTripActivities(trip)} </div>
             </div>
             <div>
-              <img alt="trip climate icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} alt='climate' />
               <div> {weatherLabel(depatures)} </div>
             </div>
             <div>
-              <img alt="termometer icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} alt='temperature' />
               <div> {temperatureLabel(depatures)} </div>
             </div>
             <div>
-              <img alt="saisonnality icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} alt='saisonnality' />
               <div> {saisonalityLabel(depatures)} </div>
             </div>
             {trip.security && securityBlock()}
@@ -161,7 +161,6 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
             <p className={classes.opinions}> {trip.tripadvisor.opinions} avis</p>
           </div>
         </div>
-
       </div>
     </div>
   </div>

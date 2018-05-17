@@ -124,3 +124,8 @@ export const getSecurityFilter = createSelector(
   getActiveFilters,
   ({ security }) => security ? security.value : false
 )
+
+export const getInsoliteFilter = createSelector(
+  getActiveFilters,
+  ({ insolite }) => insolite ? insolite.value : false
+)

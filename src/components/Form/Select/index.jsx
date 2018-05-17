@@ -4,10 +4,10 @@ import injectSheet from 'react-jss'
 const styles = {
   wrapper: {
     position: 'relative',
-    width: '100%'
+    width: ({ theme }) => (theme === 'secondary') ? '180px' : '100%'
   },
   button: {
-    width: '280px',
+    width: '100%',
     marginTop: '20px',
     marginBottom: '0px',
     padding: '5px 10px',
@@ -31,7 +31,7 @@ const styles = {
     },
   },
   options: {
-    width: '276px',
+    width: '100%',
     position: 'absolute',
     bottom: '-3px',
     transform: 'translateY(100%)',
@@ -63,6 +63,7 @@ const styles = {
 // => value
 // => options
 // => onChange
+// => theme [secondary]
 class Select extends Component {
   state = { isOpen: false }
 
