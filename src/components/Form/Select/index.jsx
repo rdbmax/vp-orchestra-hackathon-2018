@@ -20,7 +20,7 @@ const styles = {
     fontWeight: 'bold',
     textAlign: 'left',
     outline: 'none',
-    cursor: 'pointer'
+    cursor: 'pointer',
   },
   currentValue: {
     color: '#DA3288',
@@ -82,6 +82,7 @@ class Select extends Component {
     return (
       <div className={classes.wrapper}>
         <button onClick={this.onClickButton} className={classes.button}>
+          <img src="./img/engine/Ambiance.png" width="15px" height="15px" />&nbsp;&nbsp;&nbsp;
           <span>Ambiance</span>
           <span className={classes.currentValue}>&nbsp;{ value }</span>
         </button>
