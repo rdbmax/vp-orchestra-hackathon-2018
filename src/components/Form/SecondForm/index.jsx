@@ -6,6 +6,7 @@ import DepartureCities from '../DepartureCities'
 import AvgTemperature from '../AvgTemperature'
 import Saisonality from '../Saisonality'
 import Security from '../Security'
+import Insolite from '../Insolite'
 
 const icon = {
   width: '30px',
@@ -59,6 +60,10 @@ const styles = {
   security: {
     extend: icon,
     backgroundImage: 'url(img/filters/SecuriteGrisClair.png)'
+  },
+  insolite: {
+    extend: icon,
+    backgroundImage: 'url(img/filters/InsoliteGrisClair.png)'
   }
 }
 
@@ -86,6 +91,7 @@ class SecondForm extends Component {
           <Saisonality />
           <Security />
           <Activities />
+          <Insolite />
         </div> }
 
         <div className={classes.rightCol}>
@@ -99,6 +105,7 @@ class SecondForm extends Component {
           <div onClick={this.onClickIcon('saisonality')} className={classes.saisonality} />
           <div onClick={this.onClickIcon('security')} className={classes.security} />
           <div onClick={this.onClickIcon('activities')} className={classes.activities} />
+          <div onClick={this.onClickIcon('insolite')} className={classes.insolite} />
         </div>
       </div>
     )
