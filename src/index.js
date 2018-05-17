@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { jss, JssProvider } from 'react-jss'
 import vendorPrefixer from 'jss-vendor-prefixer'
 import jssNested from 'jss-nested'
+import jssExtend from 'jss-extend'
 import store from './store/install'
 import './index.css';
 import App from './App';
@@ -11,6 +12,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 jss.use(vendorPrefixer())
 jss.use(jssNested())
+jss.use(jssExtend())
 
 ReactDOM.render(
   <Provider store={store}>
