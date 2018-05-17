@@ -1,5 +1,5 @@
 export const filtersFunctions = {
-
+  mood: filterValue => product => product.offerDescription.mood.includes(filterValue)
 }
 
 // Example :

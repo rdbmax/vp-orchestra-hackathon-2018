@@ -16,7 +16,14 @@ export const getActiveFilters = createSelector(
 export const getFilteredTrips = createSelector(
   getAllTrips,
   getActiveFilters,
-  (allTrips, activeFilters) => activeFilters
-    .map(({ type, value }) => filtersFunctions[type](value))
+  (allTrips, activeFilters) => Object
+    .values(activeFilters)
+    .filter(filter => Boolean(filter))
+    .map(({ filter, value }) => filtersFunctions[filter](value))
     .reduce((filteredData, filterFunction) => filteredData.filter(filterFunction), allTrips)
+)
+
+export const getMoodFilter = createSelector(
+  getActiveFilters,
+  ({ mood }) => mood && mood.value
 )

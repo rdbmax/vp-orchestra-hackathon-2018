@@ -8,7 +8,8 @@ const styles = {
   app: {
     backgroundImage: 'url(./background_transparent.png)',
     backgroundPosition: 'center top',
-    backgroundRepeat: 'no-repeat'
+    backgroundRepeat: 'no-repeat',
+    fontFamily: 'VPSans'
   }
 }
 
