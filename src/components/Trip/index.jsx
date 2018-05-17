@@ -17,7 +17,7 @@ const styles = {
   }
 }
 
-const Trip = ({ trip: { offerDescription: trip }, classes }) => (
+const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, classes }) => (
   <div className={classes.wrapper}>
     { trip.label } 
     <div> { trip.stars } </div>
@@ -25,9 +25,14 @@ const Trip = ({ trip: { offerDescription: trip }, classes }) => (
       <img src={process.env.PUBLIC_URL + '/img/product/PinLocation.png'} />
       <div> { trip.address } </div>
       <div className={classes.country}> { trip.country } </div>
-      <div > À partir de X€/pers</div>
+      <div > À partir de {Math.min.apply(Math, depatures.map(depature => depature.price))}€/pers</div>
     </div>
-    
+    <div>
+      <div> Note Tripadvisor</div>
+      <div> 
+        <img src={`http://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/${trip.tripadvisor.rating}-MCID-5.png`}></img>
+      </div>
+    </div>
     <img className={classes.picture} src={trip.image} alt={trip.label} />
   </div>
 )
