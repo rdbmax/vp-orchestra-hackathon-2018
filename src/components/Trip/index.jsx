@@ -125,23 +125,23 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
           <div className={classes.description}>
             <p>{trip.description}</p>
             <div>
-              <img alt="departure cities icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} alt='departure city' />
               <div> {listDepaturesCities(depatures)} </div>
             </div>
             <div>
-              <img alt="trip activities icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ActivitesRose.png`} alt='activities' />
               <div> {listTripActivities(trip)} </div>
             </div>
             <div>
-              <img alt="trip climate icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/ClimatRose.png`} alt='climate' />
               <div> {weatherLabel(depatures)} </div>
             </div>
             <div>
-              <img alt="termometer icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/TemperatureRose.png`} alt='temperature' />
               <div> {temperatureLabel(depatures)} </div>
             </div>
             <div>
-              <img alt="saisonnality icon" style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} />
+              <img style={{ width: '20px' }} src={`${process.env.PUBLIC_URL}/img/filters/SaisonnaliteRose.png`} alt='saisonnality' />
               <div> {saisonalityLabel(depatures)} </div>
             </div>
             {trip.security && securityBlock()}
