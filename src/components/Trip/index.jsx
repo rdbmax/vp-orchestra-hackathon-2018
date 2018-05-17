@@ -50,6 +50,10 @@ const Trip = ({ trip: { offerDescription: trip, departureDates: depatures }, cla
       <div>
         {trip.description}
       </div>
+      <div>
+        <img src={`${process.env.PUBLIC_URL}/img/filters/VilleDepartRose.png`} />
+        <div> { [...new Set(depatures.reduce((acc, curr) => acc + curr.departureCities, ''))] } </div>
+      </div>
     </div>
   </div>
 )
