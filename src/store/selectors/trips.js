@@ -119,3 +119,8 @@ export const getSaisonalityFilterOptions = createSelector(
     return [...new Set(allSaisonalities)]
   }
 )
+
+export const getSecurityFilter = createSelector(
+  getActiveFilters,
+  ({ security }) => security ? security.value : false
+)

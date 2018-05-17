@@ -21,5 +21,6 @@ export const filtersFunctions = {
   saisonality: filterValue => product => product.departureDates
     .map(deprature => deprature.saisonality)
     .filter(saisonality => saisonality === filterValue)
-    .includes(filterValue)
+    .includes(filterValue),
+  security: filterValue => product => (!filterValue) ? true : product.offerDescription.security
 }
