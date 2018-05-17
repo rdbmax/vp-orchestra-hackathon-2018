@@ -39,7 +39,8 @@ const styles = {
     borderTopRadius: 'none',
     border: '2px solid #BFBFBF',
     borderTop: 'none',
-    paddingRight: '0px'
+    paddingRight: '0px',
+    zIndex: '1000'
   },
   option: {
     width: '100%',
@@ -84,7 +85,7 @@ class Select extends Component {
       <div className={classes.wrapper}>
         <button onClick={this.onClickButton} className={classes.button}>
           <span>{ name }</span>
-          <span className={classes.currentValue}>{ value }</span>
+          <span className={classes.currentValue}> { value }</span>
         </button>
 
         { isOpen && <div className={classes.options}>
